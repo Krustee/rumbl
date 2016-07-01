@@ -1,5 +1,4 @@
 <h1>Listing Users</h1>
-<%= link "Add user", to: user_path(@conn, :new), class: "btn btn-primary" %>
 <table class="table">
   <%= for user <- @users do %>
     <tr>

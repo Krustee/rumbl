@@ -18,5 +18,5 @@
     <%= error_tag f, :password %>
   </div>
   <%= submit "Create User", class: "btn btn-primary" %>
-  <%= link "Cancel", to: user_path(@conn, :index), class: "btn btn-primary" %>
+  <%= link "Cancel", to: page_path(@conn, :index), class: "btn btn-primary" %>
 <% end %>
